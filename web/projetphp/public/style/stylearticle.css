@@ -1,0 +1,128 @@
+body{
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    
+
+}
+.header{
+    height: 90px;
+    width: 100%;
+    background-image: radial-gradient( circle farthest-corner at 7.2% 13.6%,  rgba(37,249,245,1) 0%, rgba(8,70,218,1) 90% ); 
+border-radius: 20px;
+    
+}
+.title{
+    font-size: 1.9em;
+    font-weight: 800;
+    position: relative;
+    top: 20px;
+    text-align: center;
+    color: blueviolet;
+}
+.article{
+    height: 240px;
+    width: 97%;
+    border: 2px solid blueviolet;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 20px;
+    background-image: radial-gradient( circle farthest-corner at 92.3% 71.5%,  rgba(83,138,214,1) 0%, rgba(134,231,214,1) 90% );
+transition: 0.7s ease;
+}
+.article:hover{
+    background-color: #A9C9FF;
+    background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%); 
+    transform: scale(1.02);
+}
+
+.info{
+    height: 100px;
+    margin-bottom: 12px;
+    position: relative;
+}
+.info *{
+    margin: 0;
+    margin-right: 50px;
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-top: 8px;
+}
+.content{
+    border: 2px solid black;
+    font-size: large;
+    padding: 10px;
+    border-radius: 10px;
+}
+#houseicon{
+    position: absolute;
+    font-size: 2.5em;
+    color:#C850C0;
+    right: 40px;
+    top: 28px;
+}
+#addicon{
+    position: absolute;
+    font-size: 2.5em;
+    color:#C850C0;
+    right: 320px;
+    top: 28px;
+}
+#users{
+        position: absolute;
+        font-size: 2.5em;
+        color:#C850C0;
+        right: 390px;
+        top: 28px;
+}
+#users:hover{
+    color: rgb(244, 244, 244);
+}
+#addicon:hover{
+    color: rgb(244, 244, 244);
+}
+#houseicon:hover{
+    color: rgb(244, 244, 244);
+}
+#logicon{
+    position: absolute;
+    font-size: 2.5em;
+    color:#C850C0;
+    right: 100px;
+    top: 28px;
+}
+#logouticon{
+    position: absolute;
+    font-size: 2.0em;
+    color:#C850C0;
+    right: 170px;
+    border-radius: 20px;
+    top: 28px;
+}
+
+#logicon:hover{
+    color: rgb(244, 244, 244);
+}
+#logouticon:hover{
+    color: rgb(244, 244, 244);
+    background-color: #C850C0;
+}
+.icon{
+    margin: 5px;
+    font-size: 1.4em;
+    position:absolute;
+    right: 0;
+   top: 10%;
+}
+.icon *:hover{
+    color:#C850C0;
+}
+.reating{
+    position: absolute;
+    top: 10px;
+    font-size: 1.4em;
+    right: 280px;
+}
+
+.reating:active{
+    color: wheat;  
+}

@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    background-color: rgb(202, 164, 114);
+    border: 1px solid;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    z-index: 1;
+    color: blueviolet;
+}
+.footer{
+    background-color: rgb(202, 164, 114);
+    border: 1px solid;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    color: blueviolet;
+    bottom: 0px;
+    
+}
+.title{
+    position: relative;
+    color: red;
+    display: flex;
+    justify-content: center;
+    top: 20px;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.container{
+    position: relative;
+    background-color: antiquewhite;
+    width: 100%;
+    height: 900px;
+}
+.article{
+    position: absolute;
+    border: 2px solid ;
+    width: 70%;
+    height: 100%;
+    top: 50px;
+    background-color: azure;
+    overflow: scroll;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.aside{
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    top: 50px;
+    background-color: rgb(81, 81, 152);
+    right: 0;
+    overflow: scroll;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.sear{
+    position: relative;
+    top: 20px;
+    color: rgb(226, 141, 43);
+    font-weight: 700;
+    font-size: 2em;
+}
+.search{
+    position: relative;
+    top: 10px;
+    height: 40px;
+    width: 90%;
+    border: 2px solid;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+.tot{
+    position: relative;
+    color: rgb(214, 226, 43);
+    font-weight: 700;
+    font-size: 2em;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.divaside{
+    position: relative;
+    top: 40px;
+    border: 2px solid;
+    background-color: aliceblue;
+    height: 100%;
+    width: 100%;
+}
+.divaside *{
+    display: block;
+    margin: 30px;
+}
+.art{
+    position: relative;
+    height: 300px;
+    width: 240px;
+    background-color: rgb(79, 150, 190);
+    display: block;
+    align-items: center;
+    text-align: center;
+    top: 20px;
+    left: 20px;
+    border-radius: 20px;
+    color: red;
+    margin: 30px;
+    
+}
+.art img{
+    width: 90px;
+    height: 90px;
+    margin: 20px;
+}
+.plus img{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0px;
+    right: 0px;
+    margin: 10px;
+    cursor: pointer;
+}
+.divas{
+    position: relative;
+    width: 90%;
+    height: 120px;
+    display: block;
+    border: 2px solid;
+    transition: 0.5s;
+}
+.divas:hover{
+    background-color: rgba(0, 255, 255, 0.626);
+}
+.divas *{
+    display: inline-block;
+    margin: 5px;
+}
+.divas img{
+    height: 70px;
+    width: 70px;
+}
+.del{
+    width: 40px;
+    height: 40px;
+}
+.del img{
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    
+}
+.prodaside{
+    position: relative;
+    bottom: 20px;
+}

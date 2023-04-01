@@ -1,0 +1,51 @@
+body{
+    background:linear-gradient(135deg,blue,rgb(120, 120, 190));
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+.container{
+    position: relative;
+    top: 200px;
+    background-color: rgba(250, 235, 215, 0.655);
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid red;
+
+}
+.container *{
+    display: block;
+    margin: 20px;
+}
+.title{
+    font-size: 1.2em;
+    font-weight: 600;
+    color: blueviolet;
+
+}
+.container input{
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid blue;
+    color: black;
+    font-weight: 600;
+    justify-content: center;
+}
+.butsub{
+    position: relative;
+    height: 30px;
+    width: 70px;
+    color: red;
+    background-color: azure;
+    border-radius: 20px;
+    display: flex;
+    left: 70px;
+    justify-content: center;
+    font-weight: 600;
+}

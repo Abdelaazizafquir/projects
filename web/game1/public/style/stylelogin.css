@@ -1,0 +1,69 @@
+body{
+    background-color: #00DBDE;
+background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+.container{
+    position: relative;
+    top: 200px;
+    background-color: rgba(250, 235, 215, 0.655);
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid red;
+
+}
+.container *{
+    display: block;
+    margin: 20px;
+}
+.title{
+    font-size: 1.2em;
+    font-weight: 600;
+    color: blueviolet;
+
+}
+.container input{
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid blue;
+    color: black;
+    font-weight: 600;
+    justify-content: center;
+}
+.butsub{
+    position: relative;
+    height: 30px;
+    width: 70px;
+    color: red;
+    background-color: azure;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    cursor: pointer;
+}
+.link{
+    text-decoration: none;
+    color: #FC00FF;
+    font-weight: 600;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+#logicon{
+    position: absolute;
+    font-size: 2.5em;
+    color: rgb(244, 244, 244);
+    right: 100px;
+    top: 28px;
+}
+#logicon:hover{
+    color: rgb(189, 51, 51);
+}

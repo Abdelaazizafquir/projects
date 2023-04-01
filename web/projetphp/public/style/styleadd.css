@@ -1,0 +1,47 @@
+body{
+    height: 800px;
+    background-color: #08AEEA;
+background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+text-align: center;
+}
+.title{
+    font-size: 1.9em;
+    font-weight: 700;
+    color: #FF2525;
+}
+
+form{
+    position: relative;
+    left: 20%;
+    height: 750px;
+    width: 850px;
+   background-color:#B5FFFC;
+    border:2px solid #FFE53B;
+    border-radius: 20px;
+} 
+form *{
+    margin: 10px;
+}
+input{
+    width: 90%;
+    height: 40px;
+    border-radius: 20px;
+}
+
+textarea{
+    border-radius: 10px;
+}
+div{
+    font-size: 1.5em;
+    font-weight: 800;
+}
+#logicon{
+    position: absolute;
+    font-size: 2.5em;
+    color:#C850C0;
+    right: 100px;
+    top: 28px;
+}
+#logicon:hover{
+    color: rgb(244, 244, 244);
+}

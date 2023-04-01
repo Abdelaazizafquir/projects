@@ -1,0 +1,185 @@
+  body{
+        background: linear-gradient(135deg,#e07f09,#34cade);
+        height: 100vh;
+    
+    }
+*{
+    margin: 0;
+}
+.container{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+}
+.jeux{
+    position: relative;
+background-color: rgb(158, 168, 172);
+height: 550px;
+width: 500px;
+border-radius: 10px;
+left: 15%;
+top: 10%;
+margin-bottom: 90px;
+justify-content: center;
+text-align: center;
+font-size: 1.9em;
+font-weight: 600;
+color: #e17d13;
+}
+.jeux img{
+    position: relative;
+width: 20%;
+top: 20%;
+left: 200px;
+}
+.jeux button{
+    position: relative;
+    top: 65%;
+    left: -10%;
+    color: #34cade;
+    font-size: large;
+    font-weight: 600;
+    width: 100px;
+    height: 30px;
+    background-color: #e07f09;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.buttons button{
+    position: relative;
+    color: #e07f09;
+    font-size: large;
+    font-weight: 600;
+    width: 100px;
+    height: 30px;
+    background-color: #34cade;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    left: -60%;
+    top: 84%;
+    margin: 20px;
+}
+.buttons button:hover{
+    color: #34cade;
+    background-color: #e07f09;
+}
+.users{
+    position: absolute;
+    height: 550px;
+    width: 450px;
+    background-color: rgb(193, 198, 202);
+    border-radius: 10px;
+    top: 10%;
+    right: 10%;
+    justify-content: center;
+    text-align: center;
+}
+.users h1{
+    font-size: 2em;
+    font-weight: 600;
+    color: #e07f09;
+}
+
+.scoree *{
+    display: inline-block;
+ 
+}
+.scoree{
+    position: relative;
+    left: -30%;
+}
+.totall *{
+display: inline-block;
+}
+.totall{
+    position: relative;
+    left: 30%;
+    top: -6.5%;
+}
+/* .users{
+    overflow: scroll;
+} */
+.user{
+    position: relative;
+    font-size: 0.9em;
+    font-weight: 500;
+    border:2px solid #e07f09;
+    border-radius: 20px;
+    margin: 15px;
+}
+.user h1{
+    position: relative;
+    display: inline-block;
+    right:5px ;
+    color: #665139;
+}
+.user h2{
+    position: absolute;
+    display: inline-block;
+    font-size: 1.4em;
+    font-weight: 700;
+    right: -10px;
+    color: #214045;
+}
+#logo{
+    position: absolute;
+    font-size: 1.5em;
+   left: 60px;
+   top: 5px;
+    color: blueviolet;
+}
+#signout{
+    position: absolute;
+    font-size: 2em;
+    font-weight: 800;
+    right: 50px;
+    top: 30px;
+    color: #e07f09;
+}
+#you{
+    background-color: #34cade;
+}
+.nn{
+    display: flex;
+    margin-top: 20px;
+    position: relative;
+    left: -15%;
+    color:blueviolet;
+    font-weight: 900;
+}
+
+.users h2{
+    margin-left: 95px;
+}
+.user h2{
+   position: relative;
+   right: -40px;
+}
+#top{
+    position: absolute;
+font-size: 1.9em;
+font-weight: 800;
+left: -360px;
+}
+#users{
+    position: absolute;
+    font-size: 1.9em;
+    top: 4%;
+    right: 7%;
+    color: #e07f09;
+}
+#name{
+    position: relative;
+    left: -10px;
+}
+#score{
+    position: absolute;
+    right: 60px;
+    top: 5px;
+}

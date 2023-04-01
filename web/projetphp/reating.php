@@ -1,0 +1,20 @@
+<?php 
+       $data=file_get_contents('data.json');
+       $dataar=file_get_contents('article.json');
+       $array=json_decode($data,true);
+       $article=json_decode($dataar,true);
+       $user=$article[$_GET["id"]]["user"];
+       foreach($array as $value){
+        if($value["username"]==$user){
+            $array[$value["id"]-1]["score"]++;
+            $f=fopen("data.json","w+");
+             $encode=json_encode($array);
+            fwrite($f,$encode);
+        }
+       }
+    $article[$_GET["id"]]["score"]++;
+    $f=fopen("article.json","w+");
+    $encoode=json_encode($article);
+    fwrite($f,$encoode);
+    header('location:index.php');
+?>

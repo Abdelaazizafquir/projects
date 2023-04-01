@@ -1,0 +1,139 @@
+body{
+    background: linear-gradient(125deg,rgb(91, 213, 203),rgb(255, 0, 179));
+    
+}
+
+.container{
+    background-color: rgba(250, 235, 215, 0.416);
+    height: 700px;
+    width: 75%;
+    border-radius: 10px;
+    position: relative;
+    top: 15%;
+    left: 15%;
+    display:flex;
+}
+.jeux{
+    background-color:rgba(137, 43, 226, 0.603);
+    height: 600px;
+    width: 600px;
+    border-radius: 20px;
+    position: relative;
+    top: 5%;
+    left: 10%;
+}
+.users{
+    height: 600px;
+    width: 300px;
+    position: relative;
+    background-color:rgba(137, 43, 226, 0.603);
+    left: 13%;
+    top: 10%;
+    justify-content: center;
+    text-align: center;
+    font-weight: 900;
+    color: aquamarine;
+    border-radius: 10px;
+}
+.balle{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    border-radius: 90px;
+    background-color: blue;
+}
+.score{
+    position: absolute;
+    right: 0;
+    background-color: rgba(165, 42, 42, 0.461);
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    font-size: 1.5em;
+    display: flex;
+    font-weight: 900;
+}
+.blanch{
+    height: 30px;
+    width: 170px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0px;
+}
+.buttons{
+    font-size: 1.8em;
+    position: absolute;
+    bottom: 4%;
+    left: 30%;
+    display: flex;
+}
+.login{
+    height: 30px;
+    width: 70px;
+    border: none;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.register{
+    height: 30px;
+    width: 70px;
+    border: none;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.quite{
+    position: absolute;
+    bottom: 4%;
+    left: 50%;
+}
+.save{
+    height: 30px;
+    width: 180px;
+    border: none;
+    background-color: aliceblue;
+    border-radius: 10px;
+   
+}
+.logout{
+    position: relative;
+    right: -31%;
+    top: 5px;
+
+}
+.logout button{
+    height: 20px;
+    width: 70px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    border: none;
+}
+button{
+    cursor: pointer;
+}
+a{
+    font-size: 1.1em;
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: 900;
+}
+.user {
+    height: 30px;
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-weight: 900;
+    color: aquamarine;
+    margin: 15px;
+}
+.username{
+    display: flex;
+    margin-left: 10px;
+}
+.scoree{
+    position: relative;
+    margin-left: 40px;
+    margin-top: -21px;
+}
